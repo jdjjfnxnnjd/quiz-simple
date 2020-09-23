@@ -45,3 +45,5 @@ Demo 代码可以新建一个或多个文件（不限），
 > ```
 
 答：
+1、PostCSS + autoprefixer 用来编译 CSS 代码，提高部分 CSS 的浏览器兼容性。
+2、平常使用css + css3写样式，按钮等可复用的样式统一class
