@@ -3,10 +3,10 @@
 
 // * ---------------- 请补充……
 type User = {
-      userId: number,
-			id: number,
-			title: string,
-			completed: boolean
+        userId: number,
+	id: number,
+	title: string,
+	completed: boolean
   };
 const getData: User[] = async (): User[] =>
   await fetch('https://jsonplaceholder.typicode.com/todos/').then((response) => response.json());
